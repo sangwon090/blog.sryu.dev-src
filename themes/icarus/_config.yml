@@ -94,13 +94,13 @@ widgets:
         position: left
         type: categories
     -
-        position: right
+        position: left
         type: recent_posts
     -
-        position: right
+        position: left
         type: archives
     -
-        position: right
+        position: left
         type: tags
     -
         position: left
