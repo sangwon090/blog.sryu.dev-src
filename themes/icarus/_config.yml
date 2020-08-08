@@ -106,7 +106,7 @@ widgets:
         position: left
         type: subscribe_email
         description: 
-        feedburner_id: ''
+        feedburner_id: 'blog_sryu_dev'
 plugins:
     animejs: true
     back_to_top: true
