@@ -85,7 +85,8 @@ theme: icarus
 
 # Deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/sangwon090/blog.sryu.dev.git
 
 # RSS feed
 feed:
