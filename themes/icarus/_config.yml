@@ -1,0 +1,123 @@
+version: 3.0.0
+variant: default
+logo: /img/logo.png
+head:
+    favicon: /img/favicon.png
+    open_graph:
+        title: 
+        type: blog
+        url: 
+        image: 
+        site_name: 
+        author: 
+        description: 
+        twitter_card: 
+        twitter_id: 
+        twitter_site: 
+        google_plus: 
+        fb_admins: 
+        fb_app_id: 
+    structured_data:
+        title: 
+        description: 
+        url: 
+        author: 
+        image: 
+    meta:
+        - ''
+    rss: /rss2.xml
+navbar:
+    menu:
+        Home: /
+        Archives: /archives
+        Categories: /categories
+        Tags: /tags
+        About: /about
+    links:
+
+footer:
+    links:
+        GitHub:
+            icon: fab fa-github
+            url: 'https://github.com/sangwon090'
+        Telegram:
+            icon: fab fa-telegram-plane
+            url: 'https://t.me/sangwon090'
+        Email:
+            icon: fas fa-envelope
+            url: 'mailto:bdboy4665@gmail.com'
+article:
+    highlight:
+        theme: atom-one-dark
+        clipboard: true
+        fold: unfolded
+    thumbnail: true
+    readtime: false
+search:
+    type: insight
+comment:
+    type: disqus
+    shortname: 'sangwon090'
+donates:
+    
+share:
+    type: sharethis
+    install_url: 'https://platform-api.sharethis.com/js/sharethis.js#property=5f2e9895c354e70013104c50&product=inline-share-buttons'
+sidebar:
+    left:
+        sticky: false
+    right:
+        sticky: false
+widgets:
+    -
+        position: left
+        type: profile
+        author: Sangwon Ryu
+        author_title: 밯망히
+        location: Seoul, South Korea
+        avatar: /img/avatar.jpg
+        avatar_rounded: true
+        gravatar: 
+        follow_link: 'https://github.com/sangwon090'
+        social_links:
+            Github:
+                icon: fab fa-github
+                url: 'https://github.com/sangwon090'
+
+            RSS:
+                icon: fas fa-rss
+                url: /rss2.xml
+    -
+        position: left
+        type: toc
+    -
+        position: left
+        type: categories
+    -
+        position: right
+        type: recent_posts
+    -
+        position: right
+        type: archives
+    -
+        position: right
+        type: tags
+    -
+        position: left
+        type: subscribe_email
+        description: 
+        feedburner_id: ''
+plugins:
+    animejs: true
+    back_to_top: true
+    gallery: true
+    google_analytics:
+        tracking_id: UA-148885237-2
+    katex: false
+    mathjax: true
+    outdated_browser: false
+    progressbar: true
+providers:
+    cdn: jsdelivr
+    fontcdn: google
+    iconcdn: fontawesome
