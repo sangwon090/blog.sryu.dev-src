@@ -73,7 +73,7 @@ widgets:
         position: left
         type: profile
         author: Sangwon Ryu
-        author_title: 밯망히
+        author_title: 
         location: Seoul, South Korea
         avatar: /img/avatar.jpg
         avatar_rounded: true
