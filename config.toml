@@ -1,0 +1,54 @@
+baseURL = "https://blog.sryu.dev"
+title = "blog.sryu.dev"
+paginate = 5
+theme = "PaperMod"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+googleAnalytics = "G-PLVQY7PNKW"
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "dev"
+title = "blog.sryu.dev"
+description = "description"
+keywords = ["프로그래밍", "IT"]
+author = "Sangwon Ryu"
+defaultTheme = "auto"
+disableThemeToggle = false
+
+ShowReadingTime = false
+ShowShareButtons = false
+ShowPostNavLinks = false
+ShowBreadCrumbs = false
+ShowCodeCopyButtons = false
+ShowWordCount = false
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = true
+hidemeta = false
+hideSummary = true
+showtoc = true
+tocopen = true
+homeInfoParams = { Title = "Sangwon Ryu", Content = "Lorem ipsum dolor sit amet" }
+socialIcons = [
+    { name = "github", url = "https://github.com/sangwon090/" },
+    { name = "telegram", url = "https://t.me/sangwon090"},
+    { name = "email", url = "mailto:bdboy4665@gmail.com"},
+]
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[menu]
+main = [
+    { identifier = "search", name = "검색", url = "/search/"}
+]
