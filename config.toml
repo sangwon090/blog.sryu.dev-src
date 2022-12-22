@@ -15,7 +15,7 @@ disableXML = true
 minifyOutput = true
 
 [params]
-env = "dev"
+env = "production"
 title = "blog.sryu.dev"
 description = "description"
 keywords = ["프로그래밍", "IT"]
