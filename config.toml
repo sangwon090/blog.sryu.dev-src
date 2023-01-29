@@ -37,8 +37,8 @@ comments = true
 hidemeta = false
 hideSummary = true
 showtoc = true
-tocopen = true
-homeInfoParams = { Title = "Sangwon Ryu", Content = "Lorem ipsum dolor sit amet" }
+tocopen = false
+homeInfoParams = { Title = "Sangwon Ryu", Content = "[Buy Me a Coffee!](https://toss.me/sangwon090)" }
 socialIcons = [
     { name = "github", url = "https://github.com/sangwon090/" },
     { name = "telegram", url = "https://t.me/sangwon090"},
