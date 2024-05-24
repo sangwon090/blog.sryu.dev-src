@@ -18,7 +18,7 @@ minifyOutput = true
 env = "production"
 title = "blog.sryu.dev"
 description = "description"
-keywords = ["프로그래밍", "IT"]
+keywords = ["Computer Science", "Programming", "IT"]
 author = "Sangwon Ryu"
 defaultTheme = "auto"
 disableThemeToggle = false
@@ -38,7 +38,7 @@ hidemeta = false
 hideSummary = true
 showtoc = true
 tocopen = false
-homeInfoParams = { Title = "Sangwon Ryu", Content = "[Buy Me a Coffee!](https://toss.me/sangwon090)" }
+homeInfoParams = { Title = "Sangwon Ryu", Content = "양질의 글을 작성하기 위해 노력합니다." }
 socialIcons = [
     { name = "github", url = "https://github.com/sangwon090/" },
     { name = "telegram", url = "https://t.me/sangwon090"},
