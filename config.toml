@@ -1,6 +1,7 @@
 baseURL = "https://blog.sryu.dev"
 title = "blog.sryu.dev"
-paginate = 5
+#pagination.pagerSize = 5
+#paginator = 5
 theme = "PaperMod"
 
 enableRobotsTXT = true
@@ -27,7 +28,7 @@ ShowReadingTime = false
 ShowShareButtons = false
 ShowPostNavLinks = false
 ShowBreadCrumbs = false
-ShowCodeCopyButtons = false
+ShowCodeCopyButtons = true
 ShowWordCount = false
 ShowRssButtonInSectionTermList = true
 UseHugoToc = true
@@ -38,11 +39,11 @@ hidemeta = false
 hideSummary = true
 showtoc = true
 tocopen = false
-homeInfoParams = { Title = "Sangwon Ryu", Content = "양질의 글을 작성하기 위해 노력합니다." }
+homeInfoParams = { Title = "Sangwon Ryu", Content = "Segmentation Fault (core dumped)" }
 socialIcons = [
     { name = "github", url = "https://github.com/sangwon090/" },
     { name = "telegram", url = "https://t.me/sangwon090"},
-    { name = "email", url = "mailto:bdboy4665@gmail.com"},
+    { name = "email", url = "mailto:me@sryu.dev"},
 ]
 
 [outputs]
@@ -50,5 +51,5 @@ home = [ "HTML", "RSS", "JSON" ]
 
 [menu]
 main = [
-    { identifier = "search", name = "검색", url = "/search/"}
+    { identifier = "search", name = "Search", url = "/search/"}
 ]
