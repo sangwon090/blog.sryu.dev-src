@@ -1,0 +1,28 @@
+---
+import '../styles/global.css';
+---
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+
+		<script is:inline>
+			document.documentElement.classList.toggle(
+			  "dark",
+			  localStorage.theme === "dark" ||
+			    (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches),
+			);
+
+			localStorage.theme = 'dark';
+		</script>
+	</head>
+	<body class="bg-zinc-100 dark:bg-zinc-900">
+		<slot />
+	</body>
+</html>
